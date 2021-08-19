@@ -1,0 +1,12 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow("Da hood auto farm")
+
+local b = w:CreateFolder("Police auto Farm")
+
+b:Button("Script police",function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))()
+end)
+
+b:DestroyGui()
+
